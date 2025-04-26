@@ -80,6 +80,6 @@ dependencies {
     runtimeOnlyNonPublishable('com.github.GTNewHorizons:BlockRenderer6343:1.2.16:dev') { transitive = false }
 }
 
-configurations.all {
-    exclude group: 'com.github.GTNewHorizons', module: 'Hodgepodge'
-}
+// configurations.all {
+//     exclude group: 'com.github.GTNewHorizons', module: 'Hodgepodge'
+// }
